@@ -4,7 +4,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:63162/",
-      "sslPort": 0
+      "sslPort": 44318
     }
   },
   "profiles": {
@@ -19,7 +19,7 @@
     "AuthenticationService": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/values",
+      "launchUrl": "http://localhost:5000/api/validation",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

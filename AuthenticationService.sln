@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthenticationService", "src\AuthenticationService\AuthenticationService.xproj", "{D8DC014B-5E87-4D6D-B2CD-F6B0875D3A96}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SendOwlService", "src\SendOwlService\SendOwlService.xproj", "{F3CCF14B-294D-4463-881D-1112F9C6B9D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{D8DC014B-5E87-4D6D-B2CD-F6B0875D3A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DC014B-5E87-4D6D-B2CD-F6B0875D3A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DC014B-5E87-4D6D-B2CD-F6B0875D3A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CCF14B-294D-4463-881D-1112F9C6B9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CCF14B-294D-4463-881D-1112F9C6B9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CCF14B-294D-4463-881D-1112F9C6B9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CCF14B-294D-4463-881D-1112F9C6B9D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D8DC014B-5E87-4D6D-B2CD-F6B0875D3A96} = {FB7CE4B5-5010-4006-A3A7-067145E3033A}
+		{F3CCF14B-294D-4463-881D-1112F9C6B9D3} = {FB7CE4B5-5010-4006-A3A7-067145E3033A}
 	EndGlobalSection
 EndGlobal

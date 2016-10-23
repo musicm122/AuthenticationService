@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using AuthenticationService.Model;
 
 namespace AuthenticationService
 {
@@ -28,6 +29,7 @@ namespace AuthenticationService
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.Configure<ApplicationSettings>(Configuration.GetSection("ApplicationSettings"));
             services.AddMvc();
         }
 
